@@ -93,6 +93,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Dolby Props
 PRODUCT_VENDOR_PROPERTIES += \
+    ro.vendor.audio.dolby.dax.support=true \
     ro.vendor.dolby.dax.version=DAX3_3.7.0.8_r1 \
     vendor.audio.dolby.ds2.hardbypass=false \
     vendor.audio.dolby.ds2.enabled=false
